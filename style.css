@@ -1,0 +1,43 @@
+h1{
+    color: #e57dff;
+    border: 10px;
+}
+
+.text-box {
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #70008c;      
+    border-radius: 15px;            
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+    color: white;
+    box-shadow: inset 20px 20px 25px rgba(0,0,0,0.5);
+} 
+
+.text-box p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.nav {
+    display: flex;             
+    justify-content: center;   
+    gap: 20px;                 
+    margin: 20px 0;
+}
+
+.nav a{
+    background: purple;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: #5902a6;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
